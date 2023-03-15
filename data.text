@@ -1,0 +1,11 @@
+id	                int	                        Identificatore univoco NOT NULL
+marca	            varchar(50)	                La marca dell'auto NOT NULL
+modello	            varchar(50)	                Il modello dell'auto NOT NULL
+anno	            year    	                L'anno di produzione dell'auto
+chilometraggio	    mediumint	                Il numero di chilometri percorsi dall'auto
+colore	            varchar(20)	                Il colore dell'auto
+prezzo	            decimal(10,2)	            Il prezzo di vendita dell'auto NOT NULL
+descrizione	        text	                    Una breve descrizione dell'auto
+immagine	        varchar(255)	            L'URL dell'immagine dell'auto
+disponibile	        tinyint	                    Indica se l'auto è disponibile per l'acquisto o meno NOT NULL
+data_di_vendita	    date	                    La data in cui l'auto è stata venduta NULL
